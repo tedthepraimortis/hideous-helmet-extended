@@ -963,7 +963,7 @@ OptionMenu "HHXCompass" {
 	StaticText "$HHXNHM", 1
 	StaticText ""
 	Slider "$HHXHUDLevel", "uz_hhx_compass_nhm_hudLevel", 0, 2, 1, 0, "uz_hhx_compass_enabled"
-	Slider "$HHXPosX", "uz_hhx_compass_nhm_posX", -400, 400, 1, 0, "uz_hhx_compass_enabled"
+	Slider "$HHXPosX", "uz_hhx_compass_nhm_posX", -1200, 1200, 1, 0, "uz_hhx_compass_enabled"
 	Slider "$HHXPosY", "uz_hhx_compass_nhm_posY", -400, 400, 1, 0, "uz_hhx_compass_enabled"
 	Slider "$HHXScale", "uz_hhx_compass_nhm_scale", .01, 4., .05, 2, "uz_hhx_compass_enabled"
 	StaticText ""
@@ -980,7 +980,7 @@ OptionMenu "HHXCompass" {
 	Option "$HHXHelmetRequired", "uz_hhx_compass_hlm_required", "OnOff", "uz_hhx_compass_enabled"
 	StaticText ""
 	Slider "$HHXHUDLevel", "uz_hhx_compass_hlm_hudLevel", 0, 2, 1, 0, "uz_hhx_compass_enabled"
-	Slider "$HHXPosX", "uz_hhx_compass_hlm_posX", -400, 400, 1, 0, "uz_hhx_compass_enabled"
+	Slider "$HHXPosX", "uz_hhx_compass_hlm_posX", -1200, 1200, 1, 0, "uz_hhx_compass_enabled"
 	Slider "$HHXPosY", "uz_hhx_compass_hlm_posY", -400, 400, 1, 0, "uz_hhx_compass_enabled"
 	Slider "$HHXScale", "uz_hhx_compass_hlm_scale", .01, 4., .05, 2, "uz_hhx_compass_enabled"
 	StaticText ""
